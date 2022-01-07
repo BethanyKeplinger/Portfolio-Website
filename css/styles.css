@@ -20,8 +20,8 @@ Text thin: 'Readex Pro', sans serif; 100
    --background-color: #c1c7c5;
    --header-color: #fff;
    --footer-color: #fff;
-   --link-color: #09baa6;
-   --link-color-visited: #b876a6;
+   --link-color: #064d45;
+   --link-color-visited: #098072;
    --link-color-active: #cfa08a;
    --primary-font: 'Readex Pro', sans-serif;
    --font-weight-light: 100;
@@ -186,8 +186,7 @@ a:active {
 }
 
 .table{
-  margin-left: auto;
-  margin-right: auto;
+  align: left;
 }
 
 .contact{
