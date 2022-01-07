@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-/* 
+/*
 Text color black: #000;
 Primary Color (dark green): #0E5F4A;
 Secondary color (light green): #57ab88
@@ -20,21 +20,18 @@ Text thin: 'Readex Pro', sans serif; 100
 
  */
 
-
-html{
+html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-
-body{
-	background-color: #c1c7c5;
-	font-family: 'Readex Pro', sans-serif;
+body {
+  background-color: #c1c7c5;
+  font-family: 'Readex Pro', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  color: #0E5F4A;
-
+  color: #0e5f4a;
 }
 
 .container {
@@ -43,15 +40,15 @@ body{
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   min-height: 100vh;
-  }
+}
 
-  main {
+main {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   margin: 20px;
 }
 
@@ -65,11 +62,9 @@ h2 {
   font-weight: 600;
 }
 
-
-p{
-  color: #0E5F4A;
+p {
+  color: #0e5f4a;
 }
-
 
 a {
   color: #064d45;
@@ -79,7 +74,8 @@ a:visited {
   color: #098072;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
@@ -87,38 +83,36 @@ a:active {
   color: #cfa08a;
 }
 
-
-
 .page-header {
   clear: both;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 30px;
   background-color: #fff;
   margin: none;
 }
 
 .page-header__item {
-	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 80px;
-	        flex: 0 1 80px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 80px;
+  flex: 0 1 80px;
 }
 
-.page-header__item:last-child{
+.page-header__item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
-} 
+}
 
 .navigation-list {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .navigation-list li {
-	display: inline-block;
-	margin-left: 15px;
+  display: inline-block;
+  margin-left: 15px;
 }
 
 .navigation-list__item--active {
@@ -127,100 +121,94 @@ a:active {
 
 /* Navigation animation  */
 
-.navigation-list li a:before, .navigation-list li a:after
-{
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #FFF;
-    content: "";
-    opacity: 0;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+.navigation-list li a::before,
+.navigation-list li a::after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: "";
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.navigation-list li a:before
-{
-    top: 0px;
-    -webkit-transform: translateY(10px);
-        -ms-transform: translateY(10px);
-            transform: translateY(10px);
+.navigation-list li a::before {
+  top: 0;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
 }
 
-.navigation-list li a:after
-{
-    bottom: 0px;
-    -webkit-transform: translateY(-10px);
-        -ms-transform: translateY(-10px);
-            transform: translateY(-10px);
+.navigation-list li a::after {
+  bottom: 0;
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
-.navigation-list li a:hover:before, .navigation-list li a:hover:after
-{
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-        -ms-transform: translateY(0px);
-            transform: translateY(0px);
+.navigation-list li a:hover::before,
+.navigation-list li a:hover::after {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
 }
 
 /* end */
 
 .profile__portrait {
-	float: left;
-	width: 150px;
-	margin-right: 40px;
-	border-radius: 50%;
+  float: left;
+  width: 150px;
+  margin-right: 40px;
+  border-radius: 50%;
   padding-top: 20px;
 }
 
-.profile{
-	max-width: 700px;
-	margin: 0 auto;
+.profile {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-
-
-/*align text in the center*/
-.code-link{
+/* align text in the center */
+.code-link {
   text-align: center;
 }
 
-
-.about{
-  margin-left:30px ;
-}
-
-.table{
-  align: left;
-}
-
-.contact{
+.about {
   margin-left: 30px;
 }
 
-.page-footer{
-	clear: both;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-	text-align: center;
-  background-color: #fff;
-  margin: none;
+.table {
+  text-align: left;
 }
 
-#contact-form{
+.contact {
+  margin-left: 30px;
+}
+
+.page-footer {
+  clear: both;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fff;
+}
+
+#contact-form {
   grid-gap: 10px;
 }
 
 .grid {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
@@ -230,17 +218,17 @@ a:active {
   margin: 30px;
 }
 
-.grid__item{
-	background-color: #e3e7e8;
+.grid__item {
+  background-color: #e3e7e8;
   padding: 10px;
 }
 
-.grid-text{
+.grid-text {
   font-size: small;
 }
 
-
-  .button, button{
+.button,
+button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -251,19 +239,17 @@ a:active {
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
-  transition: 0.2s; 
+  transition: 0.2s;
   opacity: 1;
 }
 
- button:hover,  
- button:focus, 
- .button:hover, 
- .button:focus{
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
-
-
 
 @media all and (max-width: 500px) {
   .grid {
@@ -271,28 +257,30 @@ a:active {
     grid-template-columns: 1fr;
   }
 }
-@media all and (min-width: 500px) and (max-width: 750px){
+
+@media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;
   }
 }
+
 @media all and (max-width: 750px) {
   .grid {
     grid-gap: 10px;
   }
+
   .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
+
   h1 {
     font-size: 22px;
   }
 }
 
-
-
-.berlin-illustration{
+.berlin-illustration {
   max-width: 50%;
 }
 
@@ -300,9 +288,11 @@ a:active {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -312,9 +302,11 @@ a:active {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -322,64 +314,63 @@ a:active {
 
 .sun {
   -webkit-animation: 4s color-change infinite alternate linear;
-          animation: 4s color-change infinite alternate linear;
+  animation: 4s color-change infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-move {
   from {
     -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
-            transform: translate(200px, 50px);
+    transform: translate(200px, 50px);
   }
 }
 
 @keyframes cloud-move {
   from {
     -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
-            transform: translate(200px, 50px);
+    transform: translate(200px, 50px);
   }
 }
 
 .cloud-front {
   -webkit-animation: 30s cloud-move infinite alternate linear;
-          animation: 30s cloud-move infinite alternate linear;
+  animation: 30s cloud-move infinite alternate linear;
 }
-
 
 @-webkit-keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(446px, 48px);
-            transform: translate(446px, 48px);
+    transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
   }
 }
-
 
 @keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(446px, 48px);
-            transform: translate(446px, 48px);
+    transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
   }
 }
 
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
-          animation: 34s cloud-move-reverse infinite alternate linear;
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
-
-
-
