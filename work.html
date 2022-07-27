@@ -1,168 +1,129 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bethany Keplinger - Portfolio</title>
-    <link rel="shortcut icon" href="img/new-logo.png" />
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <header class="page-header">
-        <img
-          src="img/new-logo.png"
-          width="32"
-          height="32"
-          alt="Personal logo of Bethany Keplinger, a text logo that consists of my name with a plant inside a geometric shape"
-          class="page-header__item"
-        />
-        <nav class="main-navigation page-header__item">
-          <ul role="menubar" class="navigation-list">
-            <li role="presentation">
-              <a
-                href="index.html"
-                role="menuitem"
-                class="navigation-list__item navigation-list__item--active"
-                >Home</a
-              >
-            </li>
-            <li role="presentation">
-              <a href="about.html" role="menuitem" class="navigation-list__item"
-                >About Me</a
-              >
-            </li>
-            <li role="presentation">
-              <a
-                href="contact.html"
-                role="menuitem"
-                class="navigation-list__item"
-                >Contact</a
-              >
-            </li>
-            <li role="presentation">
-              <a href="work.html" role="menuitem" class="navigation-list__item"
-                >Work</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </header>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bethany Keplinger - Portfolio</title>
+  <link rel="shortcut icon" href="img/new-logo.png" />
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+</head>
 
-      <section>
-        <h1>Work</h1>
-        <div class="grid">
-          <div class="grid__item">
-            <h2>Project 1: Pokedex App</h2>
-            <p class="grid-text">
-              This is Pokedex App that I made that utilizes JavaScript, HTML and
-              CSS. This is my first time working with JavaScript. The app
-              retrieves information for the Pokemon from an API called PokeApi.
-              The dependencies are JQuery and Bootstrap and follows ESLint
-              rules.
-            </p>
+<body>
+  <div class="container">
+    <header class="page-header">
+      <img src="img/new-logo.png" width="32" height="32"
+        alt="Personal logo of Bethany Keplinger, a text logo that consists of my name with a plant inside a geometric shape"
+        class="page-header__item" />
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-            <a href="https://github.com/BethanyKeplinger/Pokedex-App"
-              >See project on GitHub</a
-            >
-            <a href="https://bethanykeplinger.github.io/Pokedex-App/"
-              >See project on GitHub Pages</a
-            >
-          </div>
+    <section>
+      <h1>Work</h1>
+      <div class="grid">
+        <div class="grid__item">
+          <h2>Project 1: Pokedex App</h2>
+          <p class="grid-text">
+            This is Pokedex App that I made that utilizes JavaScript, HTML and
+            CSS. This is my first time working with JavaScript. The app
+            retrieves information for the Pokemon from an API called PokeApi.
+            The dependencies are JQuery and Bootstrap and follows ESLint
+            rules.
+          </p>
 
-          <div class="grid__item">
-            <h2>Project 2: MyFlix-client</h2>
-            <p class="grid-text">
-              This is the client side application for a movie app called myFlix.
-              This movie app allows users to create their own profiles that hold
-              a list of their favorite movies. Users may also update their user
-              information including their username, password, email and
-              birthday. Users can view movies while also learning about genres
-              and a short bio about directors. Packages that were used are
-              axios, bootstrap, parcel, react, react-bootstrap, react-dom,
-              react-redux and redux.
-            </p>
-            <a href="https://github.com/BethanyKeplinger/myFlix-client"
-              >See project on GitHub</a
-            >
-          </div>
-
-          <div class="grid__item">
-            <h2>Project 3: MyFlix</h2>
-            <p class="grid-text">
-              This is the server side component of the web application, MyFlix.
-              It consists of a REST API that was built using JavaScipt, Node.js,
-              Express and MongoDB. This web application holds a list of users
-              and a list of movies. Users are given access to information about
-              a variety of different movies, directors and genres. Users are
-              able to add differnet movies to their list of favorites as well as
-              update their personal user information. Other packages that were
-              used are bcrypt, body-parser, cors, express-validator,
-              jsonwebtoken, morgan, passport, passport-jwt, passport-local and
-              uuid.
-            </p>
-            <a href="https://github.com/BethanyKeplinger/myFlix"
-              >See project on GitHub</a
-            >
-          </div>
-
-          <div class="grid__item">
-            <h2>Project 4: Meet App</h2>
-            <p class="grid-text">
-              Meet App is a serverless, progressive web application (PWA) built
-              with React using a test-driven development technique. The
-              application uses the Google Calendar API to fetch upcoming events.
-            </p>
-
-            <a href="https://github.com/BethanyKeplinger/meet"
-              >See project on GitHub</a
-            >
-            <a href="https://bethanykeplinger.github.io/meet/"
-              >See project on GitHub pages</a
-            >
-          </div>
-
-          <div class="grid__item">
-            <h2>Project 5</h2>
-            <p class="grid-text">
-              Within this project, I was responsible for the frontend. It’s
-              written in React.js. Additionally, I've created the HTML and CSS
-              templates.
-            </p>
-            <a href="#">See project on GitHub</a>
-          </div>
-
-          <div class="grid__item">
-            <h2>Project 6</h2>
-            <p class="grid-text">
-              Within this project, I was responsible for the frontend. It’s
-              written in React.js. Additionally, I've created the HTML and CSS
-              templates.
-            </p>
-            <a href="#">See project on GitHub</a>
-          </div>
+          <a href="https://github.com/BethanyKeplinger/Pokedex-App">See project on GitHub</a>
+          <a href="https://bethanykeplinger.github.io/Pokedex-App/">See project on GitHub Pages</a>
         </div>
-      </section>
 
-      <footer class="page-footer">
-        <p>Find me on</p>
-        <div>
-          <!-- Github logo -->
-          <img src="img/github.svg" alt="github" />
-          <!-- Twitter logo -->
-          <img src="img/twitter.svg" alt="twitter" />
-          <!-- LinkedIn logo -->
-          <img src="img/linkedin.svg" alt="linkedin" />
+        <div class="grid__item">
+          <h2>Project 2: MyFlix-client</h2>
+          <p class="grid-text">
+            This is the client side application for a movie app called myFlix.
+            This movie app allows users to create their own profiles that hold
+            a list of their favorite movies. Users may also update their user
+            information including their username, password, email and
+            birthday. Users can view movies while also learning about genres
+            and a short bio about directors. Packages that were used are
+            axios, bootstrap, parcel, react, react-bootstrap, react-dom,
+            react-redux and redux.
+          </p>
+          <a href="https://github.com/BethanyKeplinger/myFlix-client">See project on GitHub</a>
         </div>
-      </footer>
 
-      <script src="js/tota11y.min.js"></script>
-    </div>
-  </body>
+        <div class="grid__item">
+          <h2>Project 3: MyFlix</h2>
+          <p class="grid-text">
+            This is the server side component of the web application, MyFlix.
+            It consists of a REST API that was built using JavaScipt, Node.js,
+            Express and MongoDB. This web application holds a list of users
+            and a list of movies. Users are given access to information about
+            a variety of different movies, directors and genres. Users are
+            able to add differnet movies to their list of favorites as well as
+            update their personal user information. Other packages that were
+            used are bcrypt, body-parser, cors, express-validator,
+            jsonwebtoken, morgan, passport, passport-jwt, passport-local and
+            uuid.
+          </p>
+          <a href="https://github.com/BethanyKeplinger/myFlix">See project on GitHub</a>
+        </div>
+
+        <div class="grid__item">
+          <h2>Project 4: Meet App</h2>
+          <p class="grid-text">
+            Meet App is a serverless, progressive web application (PWA) built
+            with React using a test-driven development technique. The
+            application uses the Google Calendar API to fetch upcoming events.
+          </p>
+
+          <a href="https://github.com/BethanyKeplinger/meet">See project on GitHub</a>
+          <a href="https://bethanykeplinger.github.io/meet/">See project on GitHub pages</a>
+        </div>
+
+        <div class="grid__item">
+          <h2>Project 5: MyFlix Angular</h2>
+          <p class="grid-text">
+            In this project, I took my myFlix API and created a new myFlix app using
+            Angular. Users will be able to make an account, log in and see a list of 10 different
+            movies. Users can then add movies to their Favorite List where they can view them all
+            on their Profile Page. I was responsible for the frontend development of this project
+            and used Angular Material to create the User Interface.
+          </p>
+          <a href="https://github.com/BethanyKeplinger/myFlix-Angular-client">See project on GitHub</a>
+          <a href="https://bethanykeplinger.github.io/myFlix-Angular-client/">See project on GitHub pages</a>
+        </div>
+
+
+        <footer class="page-footer">
+          <p>Find me on</p>
+          <div>
+            <!-- Github logo -->
+            <img src="img/github.svg" alt="github" />
+            <!-- Twitter logo -->
+            <img src="img/twitter.svg" alt="twitter" />
+            <!-- LinkedIn logo -->
+            <img src="img/linkedin.svg" alt="linkedin" />
+          </div>
+        </footer>
+
+        <script src="js/tota11y.min.js"></script>
+      </div>
+</body>
+
 </html>
