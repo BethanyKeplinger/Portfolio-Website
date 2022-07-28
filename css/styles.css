@@ -19,9 +19,9 @@ Text thin: 'Readex Pro', sans serif; 100
   --background-color: #c1c7c5;
   --header-color: #fff;
   --footer-color: #fff;
-  --link-color: #09baa6;
-  --link-color-visited: #b876a6;
-  --link-color-active: #cfa08a;
+  --link-color: #fff;
+  --link-color-visited: #4d5254;
+  --link-color-active: #4d5254;
   --primary-font: "Readex Pro", sans-serif;
   --font-weight-light: 100;
   --font-weight-regular: 400;
@@ -121,7 +121,7 @@ a:active {
 
 /* Navigation animation  */
 
-.navigation-list li a: before,
+/* .navigation-list li a: before,
 .navigation-list li a: after {
   position: absolute;
   left: 0;
@@ -147,7 +147,7 @@ a:active {
 .navigation-list li a:hover: after {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 /* end */
 
@@ -173,9 +173,14 @@ a:active {
   margin-left: 30px;
 }
 
-.table {
-  margin-left: auto;
-  margin-right: auto;
+table,
+th,
+td {
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: center;
+  border: 1px solid;
+  margin-bottom: 20px;
 }
 
 .contact {
