@@ -86,6 +86,7 @@ a:visited {
   color: #4d5254;
 }
 
+
 a:hover,
 a:focus {
   text-decoration: none;
@@ -129,6 +130,12 @@ a:active {
 
 .navigation-list__item--active {
   text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* Navigation animation  */
