@@ -36,39 +36,29 @@
     </header>
 
     <section>
-      <h1>Work</h1>
+      <h1 class="work-title">Work</h1>
       <div class="grid">
         <div class="grid__item">
-          <h2>Project 1: Pokedex App</h2>
+          <h2 class="project-title">Project 1: Pokedex App</h2>
+          <img class="work-images" src="img/pokemon.png">
           <p class="grid-text">
             This is Pokedex App that I made that utilizes JavaScript, HTML and
             CSS. This is my first time working with JavaScript. The app
-            retrieves information for the Pokemon from an API called PokeApi.
+            retrieves information for the Pokemon from an API called PokeApi. Users
+            are able to view a list of pokemon and are able to click to see more details
+            about each pokemon.
             The dependencies are JQuery and Bootstrap and follows ESLint
             rules.
           </p>
 
           <a href="https://github.com/BethanyKeplinger/Pokedex-App">See project on GitHub</a>
+          <br>
           <a href="https://bethanykeplinger.github.io/Pokedex-App/">See project on GitHub Pages</a>
         </div>
 
-        <div class="grid__item">
-          <h2>Project 2: MyFlix-client</h2>
-          <p class="grid-text">
-            This is the client side application for a movie app called myFlix.
-            This movie app allows users to create their own profiles that hold
-            a list of their favorite movies. Users may also update their user
-            information including their username, password, email and
-            birthday. Users can view movies while also learning about genres
-            and a short bio about directors. Packages that were used are
-            axios, bootstrap, parcel, react, react-bootstrap, react-dom,
-            react-redux and redux.
-          </p>
-          <a href="https://github.com/BethanyKeplinger/myFlix-client">See project on GitHub</a>
-        </div>
 
         <div class="grid__item">
-          <h2>Project 3: MyFlix</h2>
+          <h2 class="project-title">Project 2: MyFlix API</h2>
           <p class="grid-text">
             This is the server side component of the web application, MyFlix.
             It consists of a REST API that was built using JavaScipt, Node.js,
@@ -85,45 +75,91 @@
         </div>
 
         <div class="grid__item">
-          <h2>Project 4: Meet App</h2>
+          <h2 class="project-title">Project 3: MyFlix-client</h2>
+          <img class="work-images" src="img/react-movie-view.png">
           <p class="grid-text">
-            Meet App is a serverless, progressive web application (PWA) built
+            This is the client side application for a movie app called myFlix.
+            This movie app allows users to create their own profiles that hold
+            a list of their favorite movies. Users may also update their user
+            information including their username, password, email and
+            birthday. Users can view movies while also learning about genres
+            and a short bio about directors. Packages that were used are
+            axios, bootstrap, parcel, react, react-bootstrap, react-dom,
+            react-redux and redux.
+          </p>
+          <a href="https://myflix2022.netlify.app/"> See project on Netlify</a>
+          <br>
+          <a href="https://github.com/BethanyKeplinger/myFlix-client">See project on GitHub</a>
+        </div>
+
+        <div class="grid__item">
+          <h2 class="project-title">Project 4: Meet App</h2>
+          <img class="work-images" src="img/MeetApp.png">
+          <p class="grid-text">
+            Meet App is a serverless (AWS lambda), progressive web application (PWA) built
             with React using a test-driven development technique. The
-            application uses the Google Calendar API to fetch upcoming events.
+            application uses the Google Calendar API and OAuth2 authentication flow to fetch upcoming events.
+            User's are able to filter events by city, show/hide event details, specify the
+            number of events they would like to see and use the app even when offline. The app also provides
+            data visualization with Recharts to showcase the data in different chart.
+
           </p>
 
           <a href="https://github.com/BethanyKeplinger/meet">See project on GitHub</a>
+          <br>
           <a href="https://bethanykeplinger.github.io/meet/">See project on GitHub pages</a>
         </div>
 
         <div class="grid__item">
-          <h2>Project 5: MyFlix Angular</h2>
+          <h2 class="project-title">Project 5: Chat App</h2>
+          <img class="work-image" src="img/chatapp.png">
+          <p class="grid-text">
+            Chat App was developed using React Native, Expo and GiftedChat to create a messaging application. The app
+            provides users with a chat interface with options to share images and their location. Users can choose
+            between four different background colors
+            for their chat which helps the app feel more personalized. This app was styled according to the given screen
+            design.
+            The users' conversations are stored in
+            Google Firestore Database and the users can retrieve their messages without internet connection.
+          </p>
+          <a href="https://github.com/BethanyKeplinger/myFlix-Angular-client">See project on GitHub</a>
+          <br>
+          <a href="https://bethanykeplinger.github.io/myFlix-Angular-client/">See project on GitHub pages</a>
+        </div>
+
+        <div class="grid__item">
+          <h2 class="project-title">Project 6: MyFlix Angular</h2>
+          <img class="work-images" src="img/Profile-view.png">
           <p class="grid-text">
             In this project, I took my myFlix API and created a new myFlix app using
-            Angular. Users will be able to make an account, log in and see a list of 10 different
-            movies. Users can then add movies to their Favorite List where they can view them all
+            Angular. Users will be able to register for an account, log in and see a list of 10 different
+            movies. The movies displayed include a synopsis, a brief biograpghy of the director, and a brief definition
+            of the movies genre.
+            Users can then add movies to their Favorite List where they can view them all
             on their Profile Page. I was responsible for the frontend development of this project
             and used Angular Material to create the User Interface.
           </p>
           <a href="https://github.com/BethanyKeplinger/myFlix-Angular-client">See project on GitHub</a>
+          <br>
           <a href="https://bethanykeplinger.github.io/myFlix-Angular-client/">See project on GitHub pages</a>
         </div>
+    </section>
 
 
-        <footer class="page-footer">
-          <p>Find me on</p>
-          <div>
-            <!-- Github logo -->
-            <img src="img/github.svg" alt="github" />
-            <!-- Twitter logo -->
-            <img src="img/twitter.svg" alt="twitter" />
-            <!-- LinkedIn logo -->
-            <img src="img/linkedin.svg" alt="linkedin" />
-          </div>
-        </footer>
-
-        <script src="js/tota11y.min.js"></script>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div>
+        <!-- Github logo -->
+        <img src="img/github.svg" alt="github" />
+        <!-- Twitter logo -->
+        <!-- <img src="img/twitter.svg" alt="twitter" /> -->
+        <!-- LinkedIn logo -->
+        <img src="img/linkedin.svg" alt="linkedin" />
       </div>
+    </footer>
+
+    <script src="js/tota11y.min.js"></script>
+  </div>
 </body>
 
 </html>
