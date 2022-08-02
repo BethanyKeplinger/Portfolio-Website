@@ -19,10 +19,17 @@ Text thin: 'Readex Pro', sans serif; 100
   --background-color: #c1c7c5;
   --header-color: #fff;
   --footer-color: #fff;
+<<<<<<< HEAD
   --link-color: #064d45;
   --link-color-visited: #098072;
   --link-color-active: #cfa08a;
   --primary-font: 'Readex Pro', sans-serif;
+=======
+  --link-color: #fff;
+  --link-color-visited: #4d5254;
+  --link-color-active: #4d5254;
+  --primary-font: "Readex Pro", sans-serif;
+>>>>>>> main
   --font-weight-light: 100;
   --font-weight-regular: 400;
   --font-weight-semi-bold: 600;
@@ -121,33 +128,58 @@ a:active {
 
 /* Navigation animation  */
 
+<<<<<<< HEAD
 .navigation-list li a::before,
 .navigation-list li a::after {
+=======
+/* .navigation-list li a: before,
+.navigation-list li a: after {
+>>>>>>> main
   position: absolute;
   left: 0;
   width: 100%;
   height: 2px;
+<<<<<<< HEAD
   background: #fff;
+=======
+  background: #000;
+>>>>>>> main
   content: "";
   opacity: 0;
   transition: all 0.3s;
 }
 
+<<<<<<< HEAD
 .navigation-list li a::before {
+=======
+.navigation-list li a: before {
+>>>>>>> main
   top: 0;
   transform: translateY(10px);
 }
 
+<<<<<<< HEAD
 .navigation-list li a::after {
+=======
+.navigation-list li a: after {
+>>>>>>> main
   bottom: 0;
   transform: translateY(-10px);
 }
 
+<<<<<<< HEAD
 .navigation-list li a:hover::before,
 .navigation-list li a:hover::after {
   opacity: 1;
   transform: translateY(0);
 }
+=======
+.navigation-list li a:hover: before,
+.navigation-list li a:hover: after {
+  opacity: 1;
+  transform: translateY(0);
+} */
+>>>>>>> main
 
 /* end */
 
@@ -170,6 +202,7 @@ a:active {
 }
 
 .about {
+<<<<<<< HEAD
   margin-left: 30px;
   text-align: center;
 }
@@ -182,6 +215,25 @@ a:active {
   margin-left: 30px;
 }
 
+=======
+  margin-left: 30px;
+}
+
+table,
+th,
+td {
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: center;
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+
+.contact {
+  margin-left: 30px;
+}
+
+>>>>>>> main
 .page-footer {
   clear: both;
   display: flex;
@@ -310,4 +362,8 @@ button:focus,
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main

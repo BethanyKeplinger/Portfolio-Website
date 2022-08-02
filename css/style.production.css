@@ -1,3 +1,4 @@
+style.production.css
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.3.6,
@@ -7,9 +8,8 @@
 
 /*
 Text color black: #000;
-Primary Color (dark green): #0E5F4A;
-Secondary color (light green): #57ab88
-Background color (cream): #c1c7c5;
+Primary Color (black): #000;
+Background color (light gray): #96a0a3;
 
 Font
 font-family:  'Readex Pro', sans serif;
@@ -25,8 +25,9 @@ html {
   box-sizing: border-box;
 }
 
+
 body {
-  background-color: #c1c7c5;
+  background-color: #96a0a3;
   font-family: 'Readex Pro', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -55,23 +56,30 @@ main {
 h1 {
   font-size: 30px;
   font-weight: 800;
+  color: #000
 }
 
 h2 {
   font-size: 22px;
   font-weight: 600;
+  color: #000
 }
 
+.work-title {
+  text-align: center;
+}
+
+
 p {
-  color: #0e5f4a;
+  color: #000;
 }
 
 a {
-  color: #064d45;
+  color: #000;
 }
 
 a:visited {
-  color: #098072;
+  color: #000;
 }
 
 a:hover,
@@ -80,7 +88,7 @@ a:focus {
 }
 
 a:active {
-  color: #cfa08a;
+  color: #4d5254;
 }
 
 .page-header {
@@ -117,6 +125,12 @@ a:active {
 
 .navigation-list__item--active {
   text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* Navigation animation  */
@@ -165,29 +179,50 @@ a:active {
   margin-right: 40px;
   border-radius: 50%;
   padding-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 .profile {
   max-width: 700px;
   margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-/* align text in the center */
+
+
+/*align text in the center*/
 .code-link {
   text-align: center;
+  justify-content: center;
 }
+
 
 .about {
   margin-left: 30px;
-  text-align: center;
+  font-weight: 100;
 }
 
-.table {
-  font-weight: bold;
+table,
+th,
+td {
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* text-align: center; */
+  border: 1px solid;
+  margin-bottom: 20px;
+  color: #000;
+  margin-top: 20px
+}
+
+th {
+  font-weight: 500;
 }
 
 .contact {
   margin-left: 30px;
+  margin-bottom: 30px
 }
 
 .page-footer {
@@ -203,8 +238,30 @@ a:active {
   background-color: #fff;
 }
 
-#contact-form {
+/* #contact-form {
   grid-gap: 10px;
+} */
+
+.project-title {
+  text-align: center;
+}
+
+.work-images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 200px
+}
+
+.work-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  height: 300px;
+  width: 180px;
 }
 
 .grid {
@@ -279,10 +336,6 @@ button:focus,
   h1 {
     font-size: 22px;
   }
-}
-
-.berlin-illustration {
-  max-width: 50%;
 }
 
 @-webkit-keyframes color-change {
