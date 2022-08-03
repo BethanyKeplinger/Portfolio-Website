@@ -244,6 +244,10 @@ th {
   margin: none;
 }
 
+.footer-image {
+  margin: 5px;
+}
+
 /* #contact-form {
   grid-gap: 10px;
 } */
@@ -280,6 +284,7 @@ th {
   grid-gap: 20px;
   max-width: 100%;
   margin: 30px;
+  justify-content: center;
 }
 
 .grid__item {
