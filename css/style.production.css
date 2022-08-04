@@ -189,18 +189,13 @@ a:active {
   color: #000;
   /* text-align: center; */
   /* display: flex; */
-  align-self: flex-start;
 }
 
 .profile__portrait {
-  max-width: 250px;
-  width: 100%;
-  padding-top: 20px;
-  /* margin: 20px auto 30px auto; */
+  width: 250px;
+  margin-right: 10px;
   border: #fff solid 10px;
   float: left;
-  /* outline: 4px solid #fff;
-  outline-offset: 10px; */
 }
 
 .profile {
@@ -208,15 +203,19 @@ a:active {
   flex-direction: column;
   /* max-width: 700px;
   min-height: 500px; */
-  margin: auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  /* margin: auto; */
+  /* margin-bottom: 50px;
+  margin-top: 50px; */
+  margin: 50px 0 50px 20%;
   justify-content: center;
 }
 
 .profile-info {
-  display: flex;
-  min-height: 370px;
+  /* display: flex; */
+  flex-direction: column;
+  /* min-height: 370px; */
+  min-width: 700px;
+  margin-left: 25px;
 }
 
 .profile-text {
