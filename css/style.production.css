@@ -193,7 +193,8 @@ a:active {
 }
 
 .profile__portrait {
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   padding-top: 20px;
   /* margin: 20px auto 30px auto; */
   border: #fff solid 10px;
