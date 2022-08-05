@@ -337,6 +337,7 @@ button {
   -o-transition: 0.2s;
   transition: 0.2s;
   opacity: 1;
+  margin-top: 20px;
 }
 
 button:hover,
