@@ -68,14 +68,6 @@ h2 {
   color: #000
 }
 
-.work-title {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 800;
-  color: #000
-}
-
-
 p {
   color: #000;
 }
@@ -182,6 +174,20 @@ a:active {
 
 /* end */
 
+/*Profile start*/
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0 10% 20%;
+  justify-content: center;
+}
+
+.profile-info {
+  /* display: flex; */
+  flex-direction: column;
+  margin-left: 25px;
+}
+
 .name-title {
   font-family: 'Readex Pro', sans-serif;
   font-size: 50px;
@@ -198,26 +204,6 @@ a:active {
   float: left;
 }
 
-.profile {
-  display: flex;
-  flex-direction: column;
-  /* max-width: 700px;
-  min-height: 500px; */
-  /* margin: auto; */
-  /* margin-bottom: 50px;
-  margin-top: 50px; */
-  margin: 50px 0 50px 20%;
-  justify-content: center;
-}
-
-.profile-info {
-  /* display: flex; */
-  flex-direction: column;
-  /* min-height: 370px; */
-  /* min-width: 700px; */
-  margin-left: 25px;
-}
-
 .profile-text {
   flex-direction: column;
   /* margin-left: 20%; */
@@ -226,7 +212,10 @@ a:active {
   text-size-adjust: auto;
 }
 
-.about {
+/*Profile end*/
+
+/*About Info */
+/* .about {
   margin-left: 30px;
   font-weight: 100;
 }
@@ -242,13 +231,14 @@ td {
 
 th {
   font-weight: 500;
-}
+} */
 
 .contact {
   margin-left: 30px;
   margin-bottom: 30px
 }
 
+/*Footer start */
 .page-footer {
   clear: both;
   display: -webkit-box;
@@ -267,9 +257,15 @@ th {
   margin: 5px;
 }
 
-/* #contact-form {
-  grid-gap: 10px;
-} */
+/*Footer end */
+
+/* Work Page start*/
+.work-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: #000
+}
 
 .project-title {
   text-align: center;
@@ -321,6 +317,8 @@ th {
 .grid-text {
   font-size: small;
 }
+
+/*Work Page end*/
 
 
 .button,
