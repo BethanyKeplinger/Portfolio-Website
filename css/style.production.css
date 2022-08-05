@@ -185,7 +185,7 @@ a:active {
 .profile-info {
   /* display: flex; */
   flex-direction: column;
-  margin-left: 25px;
+  /* margin-left: 20%; */
 }
 
 .name-title {
