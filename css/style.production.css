@@ -22,6 +22,7 @@ Text thin: 'Readex Pro', sans serif; 100
  */
 
 
+
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -32,9 +33,10 @@ body {
   background-color: #caccca;
   font-family: 'Readex Pro', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 1.6;
   color: #000;
+  overflow-x: hidden;
 
 }
 
@@ -234,8 +236,20 @@ th {
 } */
 
 .contact {
-  margin-left: 30px;
-  margin-bottom: 20%
+  /* margin-left: 30px;
+  margin-bottom: 20%; */
+  background-color: #e3e6e3;
+  margin: 5% auto 5% auto;
+  padding: 5%;
+}
+
+.title {
+  text-align: center;
+}
+
+.contact-page-image {
+  width: 400px;
+
 }
 
 /*Footer start */
@@ -255,6 +269,8 @@ th {
 
 .footer-image {
   margin: 5px;
+  width: 30px;
+  height: 30px;
 }
 
 /*Footer end */
@@ -303,7 +319,7 @@ th {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   max-width: 100%;
-  margin: 30px;
+  margin: 40px;
   justify-content: center;
 }
 
@@ -315,7 +331,7 @@ th {
 }
 
 .grid-text {
-  font-size: small;
+  font-size: 18px;
 }
 
 /*Work Page end*/
@@ -354,16 +370,18 @@ button:focus,
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media all and (min-width: 500px) and (max-width: 1200px) {
   .grid {
-    -ms-grid-columns: 1fr 20px 1fr;
-    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 1200px) {
   .grid {
     grid-gap: 10px;
+    -ms-grid-columns: 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .grid__item:last-child {
