@@ -337,6 +337,60 @@ th {
 
 /*Work Page end*/
 
+/* Start Case Study Page*/
+.case-study-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: #000
+}
+
+.case-study-box {
+  /* display: flex; */
+  background-color: #e3e6e3;
+  margin: 5% 10% 5% 10%;
+  padding: 5%;
+}
+
+.study-photo1 {
+  float: right;
+  padding: 6%;
+  margin-top: 30px;
+  height: 300px;
+  width: 400px;
+}
+
+.study-photo2 {
+  float: left;
+  padding: 2%;
+  margin-top: 30px;
+  height: 300px;
+  width: 400px;
+}
+
+.study-photo3 {
+  float: right;
+  padding: 2%;
+  margin-top: 10px;
+  height: 250px;
+  width: 350px;
+}
+
+.headlines {
+  color: #265b5f;
+  font-weight: 1000;
+}
+
+
+/* .overview {
+  box-sizing: border-box;
+}
+
+.beginning {
+  box-sizing: border-box;
+} */
+
+/* End Case Study Page */
 
 .button,
 button {
