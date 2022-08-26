@@ -265,7 +265,7 @@ th {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  background-color: #fff;
+  /* background-color: #fff; */
   margin: none;
 }
 
