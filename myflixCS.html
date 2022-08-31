@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Case Study</title>
+    <link rel="shortcut icon" href="img/new-logo.png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- <link rel="stylesheet" type="'text/css" href="css/styles.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item"> Back to previous page</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="case-study-title">MyFlix Case Study</h1>
+        <div class="case-study-box">
+            <div class="overview">
+                <h2 class="headlines">OVERVIEW</h2>
+                <img src="img/case-study.png" class="study-photo">
+                <p>myFlix is a web application that was developed using the MERN (MongoDB, Express, React, Node.js)
+                    stack.
+                    This movie app allows users to view 10 different movies from the myFlix API that are displayed on
+                    the
+                    home page. Once a user clicks on a movie they are given the opportunity to learn more about the
+                    movies’
+                    genre and director. Users can then create their own profiles that hold a list of their favorite
+                    movies.
+                    Users may also update their profile information including their username, password, email and
+                    birthday.
+                </p>
+                <br>
+            </div>
+            <div class="beginning">
+                <h2 class="headlines">PURPOSE AND CONTEXT</h2>
+                <p>myFlix was a project that I built as a part of my web development course at CareerFoundry to
+                    demonstrate
+                    my mastery of full-stack JavaScript Development.</p>
+                <h2 class="headlines">OBJECTIVE</h2>
+                <p>In this project, I aimed to create a database and a REST API that would later be implemented in my
+                    client facing myFlix web application. </p>
+                <h2 class="headlines">PROJECT DURATION</h2>
+                <p>Three months</p>
+                <h2 class="headlines">TOOLS USED</h2>
+                <ul>
+                    <li>MERN stack: MongoDB, Express, React and Node.js</li>
+                    <li>React-Bootstrap and React-Redux</li>
+                    <li>Axios</li>
+                    <li>Parcel</li>
+                </ul>
+
+                <div class="middle">
+                    <h2 class="headlines">APPROACH AND PROCESS</h2>
+                    <img src="img/postman.png" class="study-photo2">
+                    <h4 class="headlines">CLIENT-SIDE</h4>
+                    <p>This was the first step in my process to create an entire web app from scratch. When I began to
+                        learn about API’s, it was clear that Representational State Transfer (REST) was the best pattern
+                        of architecture to use because it employs HTTP by using endpoints to identify the resources on
+                        the web server the client wants to access. To test all of my endpoints, I used Postman. </p>
+                    <p>It was ultimately decided that using a NoSQL database like MongoDB would be the best option
+                        because of the flexibility it offers. However, I chose to use the dependency Mongoose to ensure
+                        more uniformity in the data. These two decisions allow the data to be altered in the future if
+                        that was decided to be best for the app.</p>
+                    <p>The final decision to be made involved authorization and authentication. In my course at
+                        CareerFoundry, I was given information about several different methods for authentication. In
+                        addition to choosing to use HTTP authentication, I learned that JWT (Token-Based) Authentication
+                        was favorable because of its speed, security and less strain on the server side. </p>
+
+                    <h4 class="headlines">SERVER-SIDE</h4>
+                    <img src="img/Jurasic-park.png" class="study-photo3">
+                    <p>After completing the database and API, I built the interface for the client-side view of this
+                        app. myFlix is a single-page application that uses React and React-Redux to build several views
+                        and uses Routing to navigate between the different views. Separating these views into different
+                        files allowed me to keep my code readable and easier to maintain. This app utilizes Bootstrap
+                        for creating the design interface. I enjoyed the creative license that we had in this project.
+                        Getting to make the design decisions ended up being an extremely rewarding part of this project.
+                    </p>
+                    <h2 class="headlines">CHALLENGES</h2>
+                    <p>Throughout this project, I faced many challenges. I struggled the most with debugging in React.
+                        When using dev tools to inspect my code for errors, not getting a clear idea where the problem
+                        lied made for many hours spent trying to discover the issues. WIth the help of my tutor and
+                        mentor, I was given advice on how to debug in those tough situations. I ran into several other
+                        minor challenges including issues with images working and navigating working with Bootstrap for
+                        the first time. </p>
+                </div>
+
+                <div class="end">
+                    <h2 class="headlines">END RESULTS</h2>
+                    <p>Overall I learned a great deal about the MERN stack and how to create a visually appealing web
+                        application. I had the most difficulty with the client-side portion of this application but with
+                        the great guidance from my tutor and mentor I ended up with an abundance of new knowledge. </p>
+                    <h2 class="headlines">CREDITS</h2>
+                    <ul>
+                        <li>Role: Lead Developer</li>
+                        <li>Tutor: Ezequiel De Simone </li>
+                        <li>Mentor: Alfredo Salazar Vélez </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="headlines">Testing Demo</h2>
+                <a href="https://myflix2022.netlify.app/" target="_blank">*Click here to check out the demo*</a>
+                <p>Use log in credentials:</p>
+                <p>Username: testing1234</p>
+                <p>Password: testing1234</p>
+            </div>
+        </div>
+    </div>
+    <div class="photo-credit">
+        <p>Photo by <a
+                href="https://unsplash.com/@larm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank" style="color: rgba(255, 255, 255, .5);">Larm
+                Rmah</a> on <a
+                href="https://unsplash.com/s/photos/dark-plant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank" style="color: rgba(255, 255, 255, .5)">Unsplash</a>
+        </p>
+    </div>
+
+</body>
+
+</html>
