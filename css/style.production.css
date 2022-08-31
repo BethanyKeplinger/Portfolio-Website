@@ -211,6 +211,13 @@ a:active {
   text-decoration: none;
 }
 
+.nature {
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+}
+
 /*Home page end*/
 
 /*Profile start*/
@@ -252,6 +259,11 @@ a:active {
   text-size-adjust: auto;
   padding: 30px 30px 30px 0;
   color: #000;
+  margin-left: 10px;
+}
+
+.skills {
+  font-size: 16px;
 }
 
 .download-image {
@@ -291,43 +303,46 @@ a:active {
 /* Work Page start*/
 .work-title {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 800;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #000
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  color: #fff
 }
 
 .project-title {
-  text-align: center;
+  /* text-align: center; */
   color: #fff;
+  font-size: 40px;
 }
 
 .work-images {
-  display: block;
-  /* margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px; */
+  /* display: block; */
   margin-right: 5%;
   width: 450px;
   height: 300px;
   float: left;
-  /* border-radius: 50%; */
+}
 
+.work-images2 {
+  /* display: block; */
+  margin-right: 5%;
+  width: 450px;
+  height: 300px;
+  float: right;
 }
 
 .work-group {
   display: flex;
   flex-direction: row;
+  margin-right: 5%;
+  float: right;
 }
 
 .work-image {
   display: block;
-  /* margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px; */
-  height: 200px;
-  width: 100px;
-
+  margin: 5%;
+  height: 250px;
+  width: 150px;
 }
 
 .grid {
@@ -358,10 +373,8 @@ a:active {
 
 .project-item {
   background-color: rgba(255, 255, 255, 0.6);
-  /* background-color: #000; */
   padding: 2%;
-  margin: 5%;
-  /* flex: 1; */
+  margin: 2%;
 }
 
 .project-text {
@@ -418,7 +431,7 @@ a:active {
 }
 
 .headlines {
-  color: #265b5f;
+  color: #497b45;
   font-weight: 1000;
 }
 
