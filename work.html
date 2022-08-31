@@ -20,7 +20,7 @@
             <a href="index.html" role="menuitem" class="navigation-list__item ">Home</a>
           </li>
           <li role="presentation">
-            <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+            <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
           </li>
           <li role="presentation">
             <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Projects</a>
@@ -35,19 +35,17 @@
     <section>
       <h1 class="work-title">Projects</h1>
       <div class="projects">
-
         <!-- <div class="grid__item"> -->
         <div class="project-item">
-          <h2 class="project-title">MyFlix Angular</h2>
-          <a href="https://bethanykeplinger.github.io/myFlix-Angular-client/" target="_blank"><img class="work-images"
-              src="img/Profile-view.png"></a>
-          <p class="project-text">
+          <a href="myflixAngCS.html"><img class="work-images" src="img/Profile-view.png"></a>
+          <h2 class="project-title">MyFlix [Angular]</h2>
+          <p class="grid-text">
             MyFlix was built using Angular, TypeScript and Angular Materials
-
           </p>
+          <a href="https://bethanykeplinger.github.io/myFlix-Angular-client/welcome"
+            class=" button project-button">Demo</a>
           <a href="https://github.com/BethanyKeplinger/myFlix-Angular-client" target="_blank"
-            class="button project-button">Code</a></button>
-          <a href="myflixAngCS.html" class=" button project-button">Click for Case Study</a></button>
+            class="button project-button">Code</a>
         </div>
 
         <!-- <div class="grid__item">
@@ -68,78 +66,56 @@
           <a href="https://github.com/BethanyKeplinger/myFlix" target="_blank">See project on GitHub</a>
         </div> -->
 
-        <div class="grid__item">
-          <h2 class="project-title">MyFlix-client</h2>
-          <img class="work-images" src="img/react-movie-view.png">
+        <div class="project-item">
+
+          <a href="myflixCS.html"><img class="work-images2" src="img/react-movie-view.png"></a>
+          <h2 class="project-title">MyFlix [React]</h2>
           <p class="grid-text">
-            This is the client side application for a movie app called myFlix.
-            This movie app allows users to create their own profiles that hold
-            a list of their favorite movies. Users may also update their user
-            information including their username, password, email and
-            birthday. Users can view movies while also learning about genres
-            and a short bio about directors. Packages that were used are
-            Axios, Bootstrap, Parcel, React, React-Bootstrap, React-DOM,
-            React-Redux and Redux.
+            The client-side of this app was created using React, ReactDOM, Bootstrap, Axios, Bootstrap, Parcel,
+            React-Redux and Redux. The server-side was created with Express, Node.js and MongodDB
           </p>
-          <a href="https://github.com/BethanyKeplinger/myFlix-client" target="_blank">Code</a>
-          <br>
-          <a href="https://myflix2022.netlify.app/" target="_blank">Demo</a>
-          <br>
-          <button class="button"><a href="myflixCS.html">Click for Case Study</a></button>
+          <a href="https://myflix2022.netlify.app/" target="_blank" class="button project-button">Demo</a>
+          <a href="https://github.com/BethanyKeplinger/myFlix-client" target="_blank"
+            class="button project-button">Code</a>
         </div>
 
-        <div class="grid__item">
+        <div class="project-item">
+
+          <a href="meetCS.html"><img class="work-images" src="img/MeetApp.png"></a>
           <h2 class="project-title">Meet App</h2>
-          <img class="work-images" src="img/MeetApp.png">
           <p class="grid-text">
             Meet App is a serverless (AWS lambda), progressive web application (PWA) built
-            with React using a test-driven development technique. The
-            application uses the Google Calendar API and OAuth2 authentication flow to fetch upcoming events.
-            User's are able to filter events by city, show/hide event details, specify the
-            number of events they would like to see and use the app even when offline. The app also provides
-            data visualization with Recharts to showcase the data in different chart.
-
+            with React using a test-driven development technique.
           </p>
-
-          <a href="https://github.com/BethanyKeplinger/meet" target="_blank">Code</a>
-          <br>
-          <a href="https://bethanykeplinger.github.io/meet/" target="_blank">Demo</a>
+          <a href="https://bethanykeplinger.github.io/meet/" target="_blank" class=" button project-button">Demo</a>
+          <a href="https://github.com/BethanyKeplinger/meet" target="_blank" class="button project-button">Code</a>
         </div>
 
-        <div class="grid__item">
-          <h2 class="project-title">Chat App</h2>
+        <div class="project-item">
+
           <div class="work-group">
-            <img class="work-image" src="img/chat-app.png">
-            <img class="work-image" src="img/chatapp-messages.jpeg">
+            <a href="chatCS.html"><img class="work-image" src="img/chat-app.png"></a>
+            <a href="chatCS.html"><img class="work-image" src="img/chatapp-messages.jpeg"></a>
           </div>
+          <h2 class="project-title">Chat App</h2>
           <p class="grid-text">
-            Chat App was developed using React Native, Expo and GiftedChat to create a messaging application. The app
-            provides users with a chat interface with options to share images and their location. Users can choose
-            between four different background colors
-            for their chat which helps the app feel more personalized. This app was styled according to the given screen
-            design.
-            The users' conversations are stored in
-            Google Firestore Database and the users can retrieve their messages without internet connection.
+            Chat App was developed using React Native, Expo and GiftedChat to create a messaging application.
           </p>
-          <a href="https://github.com/BethanyKeplinger/Chat-App" target="_blank">Code</a>
+          <a href="https://github.com/BethanyKeplinger/Chat-App" target="_blank" class="button project-button">Code</a>
         </div>
 
-        <div class="grid__item">
-          <h2 class="project-title">Pokedex App</h2>
-          <img class="work-images" src="img/pokemon.png">
-          <p class="grid-text">
-            This is a Pokedex App that I made that utilizes JavaScript, HTML and
-            CSS. This is my first time working with JavaScript. The app
-            retrieves information for the Pokemon from an API called PokeApi. Users
-            are able to view a list of pokemon and are able to click to see more details
-            about each pokemon.
-            The dependencies are JQuery and Bootstrap and follows ESLint
-            rules.
-          </p>
+        <div class="project-item">
 
-          <a href="https://github.com/BethanyKeplinger/Pokedex-App" target="_blank">Code</a>
-          <br>
-          <a href="https://bethanykeplinger.github.io/Pokedex-App/" target="_blank">Demo</a>
+          <a href="pokedexCS.html"><img class="work-images" src="img/pokemon.png"></a>
+          <h2 class="project-title">Pokedex App</h2>
+          <p class="grid-text">
+            Pokedex App utilizes JavaScript, Bootstrap HTML and
+            CSS.
+          </p>
+          <a href="https://bethanykeplinger.github.io/Pokedex-App/" target="_blank"
+            class="button project-button">Demo</a>
+          <a href="https://github.com/BethanyKeplinger/Pokedex-App" target="_blank"
+            class="button project-button">Code</a>
         </div>
 
 
