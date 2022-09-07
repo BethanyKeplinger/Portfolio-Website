@@ -414,9 +414,17 @@ a:active {
 .study-photo6 {
   float: left;
   padding: 2%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-right: 2%;
   height: 350px;
+  width: 350px;
+}
+
+.study-photo7 {
+  float: right;
+  padding: 2%;
+  margin-top: 10px;
+  height: 200px;
   width: 350px;
 }
 
