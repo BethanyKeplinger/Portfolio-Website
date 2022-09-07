@@ -30,14 +30,13 @@ html {
 
 
 body {
-  /* background-color: #caccca; */
   background-image: url("../img/larm-rmah-unsplash.jpg");
+  background-color: #000;
   background-position: top right;
   font-family: 'Readex Pro', sans-serif;
   font-weight: 700;
   font-size: 19px;
   line-height: 1.6;
-  /* color: #000; */
   color: #fff;
   overflow-x: hidden;
 
@@ -73,15 +72,8 @@ h2 {
   color: #fff
 }
 
-/* p {
-  color: #fff;
-  font-weight: 700;
-} */
-
-
 a {
   color: #000;
-  /* text-decoration: none; */
 }
 
 a:visited {
@@ -181,13 +173,11 @@ a:active {
 /* end */
 /*Home page start*/
 .home-page {
-  /* margin: auto; */
   font-size: 100px;
   margin: 10%;
 }
 
 .home-title {
-  /* margin: 10%; */
   text-align: center;
   animation-name: home;
   animation-duration: 6s;
@@ -223,7 +213,6 @@ a:active {
 /*Profile start*/
 .profile {
   display: flex;
-  /* flex-direction: column; */
   margin: 10%;
   flex-wrap: wrap;
   background-color: rgba(255, 255, 255, 0.7);
@@ -259,7 +248,7 @@ a:active {
   text-size-adjust: auto;
   padding: 30px 30px 30px 0;
   color: #000;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .skills {
@@ -305,7 +294,6 @@ a:active {
   text-align: center;
   font-size: 60px;
   font-weight: 800;
-  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   color: #fff
 }
 
@@ -343,27 +331,6 @@ a:active {
   margin: 5%;
   height: 250px;
   width: 150px;
-}
-
-.grid {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  max-width: 100%;
-  margin: 40px;
-  justify-content: center;
-}
-
-.grid__item {
-  /* background-color: #e3e7e8; */
-  /* background-color: #fff; */
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 10px;
-  color: #000;
 }
 
 .projects {
@@ -417,7 +384,7 @@ a:active {
 .study-photo2 {
   float: left;
   padding: 2%;
-  margin-top: 30px;
+  margin-top: 20px;
   height: 300px;
   width: 400px;
 }
@@ -426,8 +393,31 @@ a:active {
   float: right;
   padding: 2%;
   margin-top: 10px;
-  height: 300px;
+  height: 250px;
   width: 400px;
+}
+
+.study-photo4 {
+  float: left;
+  padding: 2%;
+  margin-top: 10px;
+  height: 250px;
+  width: 400px;
+}
+
+.study-photo5 {
+  float: right;
+  height: 350px;
+  width: 200px;
+}
+
+.study-photo6 {
+  float: left;
+  padding: 2%;
+  margin-top: 20px;
+  margin-right: 2%;
+  height: 350px;
+  width: 350px;
 }
 
 .headlines {
