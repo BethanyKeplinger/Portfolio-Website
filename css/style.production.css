@@ -301,6 +301,7 @@ a:active {
   /* text-align: center; */
   color: #fff;
   font-size: 40px;
+  margin-top: -10px;
 }
 
 .work-images {
