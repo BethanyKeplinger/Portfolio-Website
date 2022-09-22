@@ -229,9 +229,7 @@ a:active {
 }
 
 .profile-portrait {
-  width: 300px;
-  height: 400px;
-  margin: 5%;
+  margin: 4%;
   border: #fff solid 10px;
 
 }
@@ -298,25 +296,18 @@ a:active {
 }
 
 .project-title {
-  /* text-align: center; */
   color: #fff;
   font-size: 40px;
   margin-top: -10px;
 }
 
 .work-images {
-  /* display: block; */
   margin-right: 5%;
-  width: 450px;
-  height: 300px;
   float: left;
 }
 
 .work-images2 {
-  /* display: block; */
   margin-right: 5%;
-  width: 450px;
-  height: 300px;
   float: right;
 }
 
@@ -325,13 +316,6 @@ a:active {
   flex-direction: row;
   margin-right: 5%;
   float: right;
-}
-
-.work-image {
-  display: block;
-  margin: 5%;
-  height: 250px;
-  width: 150px;
 }
 
 .projects {
@@ -375,55 +359,13 @@ a:active {
 .study-photo {
   float: right;
   padding: 2%;
-  height: 300px;
-  width: 400px;
 }
 
 .study-photo2 {
   float: left;
   padding: 2%;
-  margin-top: 20px;
-  height: 300px;
-  width: 400px;
-}
-
-.study-photo3 {
-  float: right;
-  padding: 2%;
-  margin-top: 10px;
-  height: 250px;
-  width: 400px;
-}
-
-.study-photo4 {
-  float: left;
-  padding: 2%;
-  margin-top: 10px;
-  height: 250px;
-  width: 400px;
-}
-
-.study-photo5 {
-  float: right;
-  height: 350px;
-  width: 200px;
-}
-
-.study-photo6 {
-  float: left;
-  padding: 2%;
   /* margin-top: 20px; */
   margin-right: 2%;
-  height: 350px;
-  width: 350px;
-}
-
-.study-photo7 {
-  float: right;
-  padding: 2%;
-  margin-top: 10px;
-  height: 200px;
-  width: 350px;
 }
 
 .headlines {
@@ -434,14 +376,6 @@ a:active {
 .backtotop {
   text-decoration: none;
 }
-
-/* .overview {
-  box-sizing: border-box;
-}
-
-.beginning {
-  box-sizing: border-box;
-} */
 
 /* End Case Study Page */
 
